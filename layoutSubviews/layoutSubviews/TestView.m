@@ -20,7 +20,8 @@
  - (void)layoutSubviews {
      [super layoutSubviews];
     // NSLog(@"这里调用了%s",__FUNCTION__);
-         NSLog(@" %@", NSStringFromSelector(_cmd));
+         //NSLog(@" %@", NSStringFromSelector(_cmd));
+     NSLog(@"213");
      }
 
 @end
